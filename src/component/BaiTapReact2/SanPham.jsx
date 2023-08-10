@@ -7,7 +7,7 @@ export default class SanPham extends Component {
 
     return (
 
-      <img onClick={()=>{this.props.handleChangeGlass(this.props.element.url)}} className={style.imgProduct} src={this.props.element.url} alt="" />
+      <img onClick={()=>{this.props.handleChangeGlass(this.props.element.url,this.props.element.name,this.props.element.desc)}} className={style.imgProduct} src={this.props.element.url} alt="" />
 
     )
   }
